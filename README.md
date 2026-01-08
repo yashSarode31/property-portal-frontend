@@ -21,7 +21,7 @@ This project allows users to:
 ## 🚀 Live Demo
 
 🔗 **Deployed on Vercel:**  
-👉 https://your-vercel-link.vercel.app
+👉 https://property-portal-frontend.vercel.app/
 
 ---
 
