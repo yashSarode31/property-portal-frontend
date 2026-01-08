@@ -31,7 +31,7 @@ export default function Dashboard() {
     <div className="mx-auto w-full max-w-6xl px-4 py-10">
       <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
         <div className="space-y-2">
-          <h1 className="text-3xl font-bold tracking-tight">Seller Dashboard</h1>
+          <h1 className="text-3xl font-semibold tracking-tight">Seller Dashboard</h1>
           <p className="text-muted-foreground">
             Welcome back! Here’s a quick snapshot of your listings.
           </p>

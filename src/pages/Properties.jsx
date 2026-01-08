@@ -23,43 +23,43 @@ const properties = [
     id: 1,
     title: 'Modern Family Home',
     location: 'Austin, TX',
-    price: '$475,000',
-    imageUrl: 'https://placehold.co/800x500?text=Property+1',
+    price: '₹3,94,25,000',
+    imageUrl: 'https://images.unsplash.com/photo-1584738766473-61c083514bf4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
     id: 2,
     title: 'Downtown Apartment',
     location: 'Seattle, WA',
-    price: '$620,000',
-    imageUrl: 'https://placehold.co/800x500?text=Property+2',
+    price: '₹5,14,60,000',
+    imageUrl: 'https://images.unsplash.com/photo-1603920424053-a66f6788ba8e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
     id: 3,
     title: 'Cozy Suburban Cottage',
     location: 'Raleigh, NC',
-    price: '$315,000',
-    imageUrl: 'https://placehold.co/800x500?text=Property+3',
+    price: '₹2,61,45,000',
+    imageUrl: 'https://images.unsplash.com/photo-1561033318-3f377e5a3f3c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
     id: 4,
     title: 'Luxury Beachfront Villa',
     location: 'San Diego, CA',
-    price: '$1,250,000',
-    imageUrl: 'https://placehold.co/800x500?text=Property+4',
+    price: '₹10,37,50,000',
+    imageUrl: 'https://plus.unsplash.com/premium_photo-1661954372617-15780178eb2e?q=80&w=1460&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
     id: 5,
     title: 'New Build Townhome',
     location: 'Denver, CO',
-    price: '$540,000',
-    imageUrl: 'https://placehold.co/800x500?text=Property+5',
+    price: '₹4,48,20,000',
+    imageUrl: 'https://images.unsplash.com/photo-1738796027443-b8d03fd07298?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
     id: 6,
     title: 'Quiet Country Retreat',
     location: 'Nashville, TN',
-    price: '$410,000',
-    imageUrl: 'https://placehold.co/800x500?text=Property+6',
+    price: '₹3,40,30,000',
+    imageUrl: 'https://plus.unsplash.com/premium_photo-1686090450467-3212162803e5?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
 ]
 
@@ -67,7 +67,7 @@ export default function Properties() {
   return (
     <div className="mx-auto w-full max-w-6xl px-4 py-10">
       <div className="mb-8 space-y-2">
-        <h1 className="text-3xl font-bold tracking-tight">Available Properties</h1>
+        <h1 className="text-3xl font-semibold tracking-tight">Available Properties</h1>
         <p className="text-muted-foreground">
           Browse listings and view details (demo UI only).
         </p>
@@ -108,10 +108,10 @@ export default function Properties() {
                     <SelectValue placeholder="Select range" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="0-250">Under $250k</SelectItem>
-                    <SelectItem value="250-500">$250k – $500k</SelectItem>
-                    <SelectItem value="500-750">$500k – $750k</SelectItem>
-                    <SelectItem value="750+">$750k+</SelectItem>
+                    <SelectItem value="0-250">Under ₹2,07,50,000</SelectItem>
+                    <SelectItem value="250-500">₹2,07,50,000 – ₹4,15,00,000</SelectItem>
+                    <SelectItem value="500-750">₹4,15,00,000 – ₹6,22,50,000</SelectItem>
+                    <SelectItem value="750+">₹6,22,50,000+</SelectItem>
                   </SelectContent>
                 </Select>
               </div>

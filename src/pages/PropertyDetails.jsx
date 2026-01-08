@@ -15,7 +15,7 @@ const propertiesById = {
     id: 1,
     title: 'Modern Family Home',
     location: 'Austin, TX',
-    price: '$475,000',
+    price: '₹3,94,25,000',
     imageUrl: 'https://placehold.co/1200x750?text=Property+1',
     description:
       'A bright and spacious home with an open floor plan, modern finishes, and a large backyard perfect for entertaining. Located close to schools, parks, and shopping.',
@@ -37,7 +37,7 @@ const fallbackProperty = {
   id: 0,
   title: 'Property Listing',
   location: 'Unknown location',
-  price: '$—',
+  price: '₹—',
   imageUrl: 'https://placehold.co/1200x750?text=Property',
   description:
     'This is a demo property details page. In a real app, details would be loaded from an API based on the URL id.',
@@ -69,10 +69,12 @@ export default function PropertyDetails() {
 
   return (
     <div className="mx-auto w-full max-w-6xl px-4 py-10">
+      <h1 className="mb-6 text-3xl font-semibold tracking-tight">Property Details</h1>
+
       <header className="mb-6 space-y-2">
-        <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
+        <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
           {property.title}
-        </h1>
+        </h2>
         <div className="flex flex-col gap-1 text-muted-foreground sm:flex-row sm:items-center sm:gap-3">
           <div>{property.location}</div>
           <div className="hidden sm:block">•</div>
